@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		001FE90F28D111720063EA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001FE90E28D111720063EA2D /* AppDelegate.swift */; };
 		001FE91128D111720063EA2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001FE91028D111720063EA2D /* SceneDelegate.swift */; };
-		001FE91328D111720063EA2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001FE91228D111720063EA2D /* ViewController.swift */; };
 		001FE91628D111720063EA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001FE91428D111720063EA2D /* Main.storyboard */; };
 		001FE91828D111730063EA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001FE91728D111730063EA2D /* Assets.xcassets */; };
 		001FE91B28D111730063EA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001FE91928D111730063EA2D /* LaunchScreen.storyboard */; };
 		001FE92428D11C160063EA2D /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 001FE92228D11C160063EA2D /* Savoye LET.ttc */; };
 		001FE92528D11C160063EA2D /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 001FE92328D11C160063EA2D /* quotes.json */; };
+		00F8DAFA28E6022C00103973 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAF928E6022C00103973 /* QuotesViewController.swift */; };
+		00F8DAFC28E6027700103973 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAFB28E6027700103973 /* SettingsViewController.swift */; };
+		00F8DB0028E6116A00103973 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAFF28E6116A00103973 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		001FE90B28D111720063EA2D /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		001FE90E28D111720063EA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		001FE91028D111720063EA2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		001FE91228D111720063EA2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		001FE91528D111720063EA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		001FE91728D111730063EA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001FE91A28D111730063EA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		001FE91C28D111730063EA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		001FE92228D11C160063EA2D /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
 		001FE92328D11C160063EA2D /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		00F8DAF928E6022C00103973 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		00F8DAFB28E6027700103973 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		00F8DAFF28E6116A00103973 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +64,13 @@
 		001FE90D28D111720063EA2D /* Pensamentos */ = {
 			isa = PBXGroup;
 			children = (
-				001FE92628D11C320063EA2D /* Files */,
 				001FE90E28D111720063EA2D /* AppDelegate.swift */,
 				001FE91028D111720063EA2D /* SceneDelegate.swift */,
-				001FE91228D111720063EA2D /* ViewController.swift */,
-				001FE91428D111720063EA2D /* Main.storyboard */,
+				001FE92628D11C320063EA2D /* Files */,
+				00F8DAFD28E6031700103973 /* Controllers */,
+				00F8DAFE28E6033A00103973 /* Views */,
+				00F8DB0128E611CF00103973 /* Models */,
 				001FE91728D111730063EA2D /* Assets.xcassets */,
-				001FE91928D111730063EA2D /* LaunchScreen.storyboard */,
 				001FE91C28D111730063EA2D /* Info.plist */,
 			);
 			path = Pensamentos;
@@ -79,6 +83,32 @@
 				001FE92328D11C160063EA2D /* quotes.json */,
 			);
 			path = Files;
+			sourceTree = "<group>";
+		};
+		00F8DAFD28E6031700103973 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00F8DAFB28E6027700103973 /* SettingsViewController.swift */,
+				00F8DAF928E6022C00103973 /* QuotesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		00F8DAFE28E6033A00103973 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				001FE91428D111720063EA2D /* Main.storyboard */,
+				001FE91928D111730063EA2D /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00F8DB0128E611CF00103973 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00F8DAFF28E6116A00103973 /* Quote.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001FE91328D111720063EA2D /* ViewController.swift in Sources */,
+				00F8DAFA28E6022C00103973 /* QuotesViewController.swift in Sources */,
 				001FE90F28D111720063EA2D /* AppDelegate.swift in Sources */,
 				001FE91128D111720063EA2D /* SceneDelegate.swift in Sources */,
+				00F8DB0028E6116A00103973 /* Quote.swift in Sources */,
+				00F8DAFC28E6027700103973 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +353,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,7 +382,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
