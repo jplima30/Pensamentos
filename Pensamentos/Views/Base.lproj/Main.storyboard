@@ -70,11 +70,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quotes" id="gxh-HD-xYa"/>
                     <connections>
-                        <outlet property="ConstraintTop" destination="oDt-fx-URy" id="9UU-OM-83f"/>
                         <outlet property="imageViewPhoto" destination="2cj-oY-yrO" id="cQb-0O-cAD"/>
                         <outlet property="imageViewPhotoBackground" destination="drR-k3-chY" id="jLa-E2-PhR"/>
                         <outlet property="labelAuthor" destination="HTc-cB-el5" id="Dk5-Hl-31e"/>
                         <outlet property="labelQuote" destination="u04-WK-8bq" id="gto-PV-jjc"/>
+                        <outlet property="layoutConstraintTop" destination="oDt-fx-URy" id="9UU-OM-83f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
