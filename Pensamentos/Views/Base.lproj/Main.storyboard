@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="drR-k3-chY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="drR-k3-chY">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hy1-gZ-ta1">
@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="width" secondItem="2cj-oY-yrO" secondAttribute="height" multiplier="750:666" id="SmN-y6-J3x"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pensamento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="u04-WK-8bq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" text="Pensamento" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="u04-WK-8bq">
                                 <rect key="frame" x="40" y="377.66666666666669" width="334" height="47.666666666666686"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="40"/>
                                 <nil key="textColor"/>
@@ -74,11 +74,12 @@
                         <outlet property="imageViewPhotoBackground" destination="drR-k3-chY" id="jLa-E2-PhR"/>
                         <outlet property="labelAuthor" destination="HTc-cB-el5" id="Dk5-Hl-31e"/>
                         <outlet property="labelQuote" destination="u04-WK-8bq" id="gto-PV-jjc"/>
+                        <outlet property="layoutConstraintTop" destination="oDt-fx-URy" id="9UU-OM-83f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-216" y="404"/>
+            <point key="canvasLocation" x="-217.39130434782609" y="403.53260869565219"/>
         </scene>
         <!--Item-->
         <scene sceneID="xqF-q1-O5D">

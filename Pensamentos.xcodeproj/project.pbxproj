@@ -14,6 +14,8 @@
 		001FE91B28D111730063EA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001FE91928D111730063EA2D /* LaunchScreen.storyboard */; };
 		001FE92428D11C160063EA2D /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 001FE92228D11C160063EA2D /* Savoye LET.ttc */; };
 		001FE92528D11C160063EA2D /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 001FE92328D11C160063EA2D /* quotes.json */; };
+		00E7731B28E76F5D0064A825 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7731A28E76F5D0064A825 /* QuotesManager.swift */; };
+		00E7731D28E76F880064A825 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7731C28E76F880064A825 /* Configuration.swift */; };
 		00F8DAFA28E6022C00103973 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAF928E6022C00103973 /* QuotesViewController.swift */; };
 		00F8DAFC28E6027700103973 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAFB28E6027700103973 /* SettingsViewController.swift */; };
 		00F8DB0028E6116A00103973 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAFF28E6116A00103973 /* Quote.swift */; };
@@ -29,6 +31,8 @@
 		001FE91C28D111730063EA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		001FE92228D11C160063EA2D /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
 		001FE92328D11C160063EA2D /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		00E7731A28E76F5D0064A825 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		00E7731C28E76F880064A825 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		00F8DAF928E6022C00103973 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		00F8DAFB28E6027700103973 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		00F8DAFF28E6116A00103973 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
@@ -67,9 +71,9 @@
 				001FE90E28D111720063EA2D /* AppDelegate.swift */,
 				001FE91028D111720063EA2D /* SceneDelegate.swift */,
 				001FE92628D11C320063EA2D /* Files */,
-				00F8DAFD28E6031700103973 /* Controllers */,
-				00F8DAFE28E6033A00103973 /* Views */,
 				00F8DB0128E611CF00103973 /* Models */,
+				00F8DAFE28E6033A00103973 /* Views */,
+				00F8DAFD28E6031700103973 /* Controllers */,
 				001FE91728D111730063EA2D /* Assets.xcassets */,
 				001FE91C28D111730063EA2D /* Info.plist */,
 			);
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				00F8DAFF28E6116A00103973 /* Quote.swift */,
+				00E7731A28E76F5D0064A825 /* QuotesManager.swift */,
+				00E7731C28E76F880064A825 /* Configuration.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,8 +192,10 @@
 			files = (
 				00F8DAFA28E6022C00103973 /* QuotesViewController.swift in Sources */,
 				001FE90F28D111720063EA2D /* AppDelegate.swift in Sources */,
+				00E7731D28E76F880064A825 /* Configuration.swift in Sources */,
 				001FE91128D111720063EA2D /* SceneDelegate.swift in Sources */,
 				00F8DB0028E6116A00103973 /* Quote.swift in Sources */,
+				00E7731B28E76F5D0064A825 /* QuotesManager.swift in Sources */,
 				00F8DAFC28E6027700103973 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
