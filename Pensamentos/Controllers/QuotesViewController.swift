@@ -8,6 +8,8 @@ class QuotesViewController: UIViewController {
     @IBOutlet weak var labelAuthor: UILabel!
     @IBOutlet weak var layoutConstraintTop: NSLayoutConstraint!
     
+    let config = Configuration.shared
+    
     let quotesManager = Quotesmanager()
     var timer: Timer?
     
@@ -17,18 +19,27 @@ class QuotesViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        prepareQuote()
+        formatView()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         prepareQuote()
     }
     
+    func formatView(){
+        view.backgroundColor = config.colorScheme == 0 ? .white : UIColor(red: 156.0/255.0, green: 68.0/255.0, blue: 15.0/255, alpha: 1.0)
+        labelQuote.textColor = config.colorScheme == 0 ? .black : .white
+        labelAuthor.textColor = config.colorScheme == 0 ? UIColor(red: 192.0/255.0, green: 96.0/255.0, blue: 49.0/255, alpha: 1.0) : .yellow
+        prepareQuote()
+    }
+    
     func prepareQuote() { //preparar os pensamentos para serem mostrados
         timer?.invalidate()
-        timer = Timer.scheduledTimer(withTimeInterval: 8.0, repeats: true, block: { timer in
-            self.showRandomQuote()
-        })
+        if config.autorefresh {
+            timer = Timer.scheduledTimer(withTimeInterval: 8.0, repeats: true) { (timer) in
+                self.showRandomQuote()
+            }
+        }
         showRandomQuote()   //exibe os pensamentos aleatórios
     }
     
