@@ -81,7 +81,7 @@
             </objects>
             <point key="canvasLocation" x="-217.39130434782609" y="403.53260869565219"/>
         </scene>
-        <!--Item-->
+        <!--Configurações-->
         <scene sceneID="xqF-q1-O5D">
             <objects>
                 <viewController id="8w2-sv-WZ7" customClass="SettingsViewController" customModule="Pensamentos" customModuleProvider="target" sceneMemberID="viewController">
@@ -95,7 +95,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aYF-tj-uQL">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aYF-tj-uQL">
                                 <rect key="frame" x="182.66666666666666" y="38" width="51" height="31"/>
                                 <color key="onTintColor" red="0.75294117650000003" green="0.37647058820000001" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -197,7 +197,7 @@
                             <constraint firstItem="3ih-Ea-olr" firstAttribute="bottom" secondItem="X86-Km-WRW" secondAttribute="bottom" constant="32" id="zCg-MF-KAY"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="FBR-nb-bqk"/>
+                    <tabBarItem key="tabBarItem" title="Configurações" image="settings" id="FBR-nb-bqk"/>
                     <connections>
                         <outlet property="SegmentedControlColorScheme" destination="C8C-Bo-PNz" id="ybC-Aw-9Dg"/>
                         <outlet property="SwitchAutoRefresh" destination="aYF-tj-uQL" id="AZf-EC-n1T"/>
@@ -207,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9M-i4-Ed2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="454" y="404"/>
+            <point key="canvasLocation" x="387" y="404"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="k9y-kw-zay">
@@ -217,7 +217,8 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="35j-by-BOT">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.91277459655145199" green="0.91277459655145199" blue="0.91277459655145199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" red="0.75294117650000003" green="0.37647058820000001" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
@@ -232,6 +233,7 @@
     </scenes>
     <resources>
         <image name="quotes" width="22" height="22"/>
+        <image name="settings" width="22" height="22"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

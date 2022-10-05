@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Pensamentos
-//
-//  Created by jplima on 13/09/22.
-//
-
 import UIKit
 
 @main
