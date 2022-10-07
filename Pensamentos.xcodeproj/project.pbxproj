@@ -17,6 +17,7 @@
 		0052E7C528F0AEE600DEB967 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0052E7C428F0AEE600DEB967 /* Settings.bundle */; };
 		00E7731B28E76F5D0064A825 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7731A28E76F5D0064A825 /* QuotesManager.swift */; };
 		00E7731D28E76F880064A825 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E7731C28E76F880064A825 /* Configuration.swift */; };
+		00F7499828EE0A75006FB4C1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00F7499728EE0A75006FB4C1 /* Settings.bundle */; };
 		00F8DAFA28E6022C00103973 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAF928E6022C00103973 /* QuotesViewController.swift */; };
 		00F8DAFC28E6027700103973 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAFB28E6027700103973 /* SettingsViewController.swift */; };
 		00F8DB0028E6116A00103973 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F8DAFF28E6116A00103973 /* Quote.swift */; };
@@ -35,6 +36,7 @@
 		0052E7C428F0AEE600DEB967 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		00E7731A28E76F5D0064A825 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
 		00E7731C28E76F880064A825 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		00F7499728EE0A75006FB4C1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		00F8DAF928E6022C00103973 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		00F8DAFB28E6027700103973 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		00F8DAFF28E6116A00103973 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
@@ -77,7 +79,11 @@
 				00F8DAFE28E6033A00103973 /* Views */,
 				00F8DAFD28E6031700103973 /* Controllers */,
 				001FE91728D111730063EA2D /* Assets.xcassets */,
+<<<<<<< HEAD
 				0052E7C428F0AEE600DEB967 /* Settings.bundle */,
+=======
+				00F7499728EE0A75006FB4C1 /* Settings.bundle */,
+>>>>>>> 39f0ac90e85e8cf52c17021e4fe5f24778f79044
 				001FE91C28D111730063EA2D /* Info.plist */,
 			);
 			path = Pensamentos;
@@ -182,7 +188,11 @@
 				001FE92528D11C160063EA2D /* quotes.json in Resources */,
 				001FE91828D111730063EA2D /* Assets.xcassets in Resources */,
 				001FE91628D111720063EA2D /* Main.storyboard in Resources */,
+<<<<<<< HEAD
 				0052E7C528F0AEE600DEB967 /* Settings.bundle in Resources */,
+=======
+				00F7499828EE0A75006FB4C1 /* Settings.bundle in Resources */,
+>>>>>>> 39f0ac90e85e8cf52c17021e4fe5f24778f79044
 				001FE92428D11C160063EA2D /* Savoye LET.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

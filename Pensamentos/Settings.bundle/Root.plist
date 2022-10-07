@@ -20,7 +20,11 @@
 			<key>Type</key>
 			<string>PSTitleValueSpecifier</string>
 			<key>Title</key>
+<<<<<<< HEAD
 			<string>Tempo (segundos) para mudar</string>
+=======
+			<string>Tempo (segundos) para mudar automaticamente</string>
+>>>>>>> 39f0ac90e85e8cf52c17021e4fe5f24778f79044
 			<key>Key</key>
 			<string>time</string>
 			<key>DefaultValue</key>
@@ -36,7 +40,11 @@
 			<key>MinimumValue</key>
 			<integer>5</integer>
 			<key>MaximumValue</key>
+<<<<<<< HEAD
 			<integer>10</integer>
+=======
+			<integer>30</integer>
+>>>>>>> 39f0ac90e85e8cf52c17021e4fe5f24778f79044
 		</dict>
 		<dict>
 			<key>Type</key>
